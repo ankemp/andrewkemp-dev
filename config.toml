@@ -1,6 +1,6 @@
 baseURL = "http://andrewkemp.dev"
 languageCode = "en-us"
-title = "Andrew Kemp Developer"
+title = "Andrew Kemp, a Javascript Engineer"
 theme = "code-editor"
 
 [params]
