@@ -33,7 +33,7 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               sshpass -e scp -o stricthostkeychecking=no -r $HUGO_BUILD_DIR
-               $USER_NAME@andrewkemp.dev:/home/aknetworking/andrewkemp.dev
+               aknetworking@andrewkemp.dev:/home/aknetworking/andrewkemp.dev
             else
               echo "Not master branch, dry run only"
             fi
