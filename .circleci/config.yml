@@ -26,7 +26,7 @@ jobs:
           name: test our generated HTML files
           command: |
             htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
-            --empty-alt-ignore --disable-external
+            --empty-alt-ignore --disable-external --url-ignore /
 
       - deploy:
           name: deploy to andrewkemp.dev on dreamhost
