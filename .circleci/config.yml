@@ -28,8 +28,6 @@ jobs:
             htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
             --empty-alt-ignore --disable-external
 
-      - run:
-
       - deploy:
           name: deploy to andrewkemp.dev on dreamhost
           command: |
