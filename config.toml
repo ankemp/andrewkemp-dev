@@ -1,4 +1,4 @@
-baseURL = "http://andrewkemp.dev"
+baseURL = "https://andrewkemp.dev"
 languageCode = "en-us"
 title = "Andrew Kemp, a Javascript Engineer"
 theme = "code-editor"
@@ -6,4 +6,4 @@ theme = "code-editor"
 [params]
     author = "Andrew Kemp"
     locale = "en-US"
-    rootlink = "/"
+    rootlink = "https://andrewkemp.dev"
